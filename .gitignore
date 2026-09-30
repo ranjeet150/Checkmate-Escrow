@@ -10,7 +10,6 @@ __pycache__/
 *.pyc
 
 # Environment secrets
-.env
 
 # Test snapshots (Rust-side scratch dirs from contracts/*/src/tests/snapshots.rs
 # fixtures — unrelated to frontend Vitest snapshots, which ARE committed:
@@ -23,7 +22,6 @@ __pycache__/
 **/test_snapshots/
 
 # IDE / editor
-.vscode/
 .idea/
 *.iml
 
@@ -56,3 +54,5 @@ mutants.out.old/
 # CI-generated reports (security-scanning.yml, ci.yml, scripts/benchmark.sh,
 # scripts/security-scan.sh) — uploaded as workflow artifacts, not committed
 reports/
+config.bat
+node_modules
